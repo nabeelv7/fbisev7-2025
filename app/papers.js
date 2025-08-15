@@ -20,7 +20,7 @@ const papers = {
         },
         {
             name: "Computer",
-            link: "https://fbise.edu.pk/ModelPaper/2025/Assessment%20Frameworks/SSC-I/Final%20Assessment%20Framework%20Model%20Question%20Paper%20Chemistry%20SSC-I.pdf"
+            link: "https://fbise.edu.pk/ModelPaper/2025/Assessment%20Frameworks/SSC-I/Final%20Assessment%20Framework%20Model%20Question%20Paper%20Computer%20Science%20SSC-I.pdf"
         },
         {
             name: "English",
@@ -96,7 +96,7 @@ const papers = {
         },
         {
             name: "English",
-            link: "https://fbise.edu.pk/ModelPaper/2025/Assessment%20Frameworks//HSSC-I/Final%20Assessment%20Framework%20Model%20Question%20Paper%20Computer%20Science%20HSSC-I.pdf"
+            link: "https://fbise.edu.pk/ModelPaper/2024New/english/Final_Assessment_Framework_Model_Question_Paper_English_HSSC-I%20(2).pdf"
         },
         {
             name: "Mathematics",
