@@ -1,8 +1,10 @@
 import { Work_Sans } from "next/font/google";
+import "./nprogress.css"
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
+import NprogressProvider from "@/components/NProgressProvider";
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -33,6 +35,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${workSans.className} antialiased dark`}>
+        <NprogressProvider />
         <Navbar />
         <Hero />
         {children}
