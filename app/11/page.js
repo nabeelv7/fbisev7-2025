@@ -12,3 +12,7 @@ export default function Eleven() {
     );
 }
 
+export const metadata = {
+    title: "FBISE Model Papers",
+    description: "A collection of all the updated FBISE board model papers for class 11",
+}

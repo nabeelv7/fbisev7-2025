@@ -12,3 +12,7 @@ export default function Home() {
   );
 }
 
+export const metadata = {
+  title: "FBISE Model Papers",
+  description: "A collection of all the updated FBISE board model papers",
+}
