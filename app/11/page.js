@@ -5,7 +5,7 @@ export default function Eleven() {
     return (
         <>
             <div className="max-w-screen-xl mx-auto flex justify-center items-center p-5">
-                <h1 className="text-3xl font-medium">11 Model Papers</h1>
+                <h1 className="text-3xl font-medium font-garamond">11 Model Papers</h1>
             </div>
             <CardSection object={papers[11]} />
         </>

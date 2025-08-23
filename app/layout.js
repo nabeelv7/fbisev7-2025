@@ -1,4 +1,5 @@
-import { Work_Sans } from "next/font/google";
+import { Playpen_Sans } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "./nprogress.css"
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -6,9 +7,14 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import NprogressProvider from "@/components/NProgressProvider";
 
-const workSans = Work_Sans({
+const playPenSans = Playpen_Sans({
   subsets: ["latin"],
 });
+
+const eb = EB_Garamond({
+  subsets: ["latin"],
+  variable: "--font-eb-garamond",
+})
 
 export const metadata = {
   keywords: ["FBISE", "Model Papers", "Class 9", "Class 10", "Class 11", "Class 12"],
@@ -34,7 +40,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${workSans.className} antialiased dark`}>
+        className={`${playPenSans.className} ${eb.variable} antialiased dark`}>
         <NprogressProvider />
         <Navbar />
         <Hero />

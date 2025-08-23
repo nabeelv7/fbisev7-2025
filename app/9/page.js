@@ -5,7 +5,7 @@ export default function Nine() {
     return (
         <>
             <div className="max-w-screen-xl mx-auto flex justify-center items-center p-5">
-                <h1 className="text-3xl font-medium">9 Model Papers</h1>
+                <h1 className="text-3xl font-medium font-garamond">9 Model Papers</h1>
             </div>
             <CardSection object={papers[9]} />
         </>
