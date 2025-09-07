@@ -1,4 +1,5 @@
 import { Playpen_Sans } from "next/font/google";
+import Script from "next/script";
 import { EB_Garamond } from "next/font/google";
 import "./nprogress.css"
 import "./globals.css";
@@ -39,6 +40,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          data-website-id="68bd21917b6e3517a8cab245"
+          data-domain="fbisev7.vercel.app"
+          src="https://datafa.st/js/script.js"
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         className={`${playPenSans.className} ${eb.variable} antialiased dark`}>
         <NprogressProvider />
