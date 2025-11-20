@@ -80,6 +80,10 @@ const papers = {
             name: "Urdu",
             link: "https://fbise.edu.pk/ModelPaper/2025/Assessment%20Frameworks/SSC-II/Final%20Assessment%20Framework%20+%20Model%20Question%20Paper%20Urdu%20SSC-II.pdf"
         },
+        {
+            name: "Islamiat",
+            link: "https://www.fbise.edu.pk/ModelPaper/2024New/islamiyat/Islamiyat%20Model%20Paper%20SSC-II%20(SNC%202022)%20Final.pdf",
+        }
     ],
     11: [
         {
